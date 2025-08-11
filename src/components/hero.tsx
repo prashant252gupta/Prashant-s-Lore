@@ -23,7 +23,7 @@ export default function Hero() {
         isAnimated ? 'scale-100 -translate-y-8' : 'scale-125'
       )}>
         <h1 className={cn(
-          "font-headline font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400 transition-all duration-1000 ease-in-out",
+          "font-headline font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
           isAnimated ? "text-5xl sm:text-6xl" : "text-6xl sm:text-7xl"
         )}>
           Prashant Gupta
