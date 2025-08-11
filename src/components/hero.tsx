@@ -1,8 +1,6 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export default function Hero() {
@@ -40,16 +38,6 @@ export default function Hero() {
         <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-foreground/60">
           I build beautiful, responsive, and highly performant web applications. Passionate about modern web technologies and clean, elegant design.
         </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <Button asChild size="lg">
-            <a href="#projects">
-              View My Work <ArrowDown className="ml-2 h-5 w-5" />
-            </a>
-          </Button>
-          <Button asChild variant="outline" size="lg">
-            <a href="#contact">Get In Touch</a>
-          </Button>
-        </div>
       </div>
     </section>
   );
