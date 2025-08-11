@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+import Spline from '@splinetool/react-spline';
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -25,8 +26,8 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
   return (
     <div className="bg-background min-h-screen">
-      <div className="fixed top-0 left-0 w-full h-full z-0 opacity-10">
-        {/* You can keep the spline background or use a static one */}
+      <div className="fixed top-0 left-0 w-full h-full z-0">
+        <Spline scene="https://prod.spline.design/1zeQtflKZD13UN8W/scene.splinecode" />
       </div>
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         <div className="max-w-4xl mx-auto">
