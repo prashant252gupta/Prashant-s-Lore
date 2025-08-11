@@ -22,7 +22,7 @@ export default function Hero() {
       )}>
         <h1 className={cn(
           "font-headline font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
-          isAnimated ? "text-5xl sm:text-6xl" : "text-6xl sm:text-7xl"
+          isAnimated ? "text-4xl sm:text-5xl" : "text-5xl sm:text-6xl"
         )}>
           Prashant Gupta
         </h1>
