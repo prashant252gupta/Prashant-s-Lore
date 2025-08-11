@@ -32,7 +32,7 @@ export default function Hero() {
         "transition-all duration-700 ease-in-out",
         isAnimated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
       )}>
-        <p className="text-lg sm:text-xl text-foreground/80 font-headline">
+        <p className="text-xl sm:text-2xl text-foreground font-headline">
           BizDev, Growth Marketer, Solution Architect, Designer & Developer.
         </p>
         <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-foreground/80">
