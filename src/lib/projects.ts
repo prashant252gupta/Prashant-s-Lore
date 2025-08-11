@@ -31,6 +31,16 @@ export const projects = [
     githubUrl: 'https://github.com/prashant252gupta/Stock_trend_prediction',
     aiHint: 'stock chart',
   },
+  {
+    slug: 'portfolio',
+    title: 'Portfolio',
+    description: 'A design and 3D model and animation project.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Design', '3D Modeling', 'Animation', 'Spline'],
+    liveUrl: '#',
+    githubUrl: '#',
+    aiHint: '3d animation',
+  },
 ];
 
 export type Project = (typeof projects)[0];
