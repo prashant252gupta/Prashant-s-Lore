@@ -18,10 +18,13 @@ export default function Hero() {
 
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col items-center justify-center text-center">
-      <div className={cn("transition-all duration-1000 ease-in-out", isAnimated ? 'scale-100' : 'scale-125')}>
+      <div className={cn(
+        "transition-all duration-1000 ease-in-out",
+        isAnimated ? 'scale-100 -translate-y-8' : 'scale-125'
+      )}>
         <h1 className={cn(
           "font-headline font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400 transition-all duration-1000 ease-in-out",
-          isAnimated ? "text-4xl sm:text-5xl md:text-6xl" : "text-6xl sm:text-7xl md:text-8xl"
+          isAnimated ? "text-5xl sm:text-6xl" : "text-6xl sm:text-7xl"
         )}>
           Prashant Gupta
         </h1>
