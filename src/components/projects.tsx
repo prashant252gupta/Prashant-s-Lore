@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github } from 'lucide-react';
+import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
@@ -67,40 +67,42 @@ export default function Projects() {
       <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
-          <Card key={project.title} className="bg-card/50 backdrop-blur-sm border-primary/20 hover:border-accent/50 transition-all duration-300 transform hover:-translate-y-1 flex flex-col">
-            <CardHeader>
-              <div className="aspect-video overflow-hidden rounded-md mb-4">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={600}
-                  height={400}
-                  className="object-cover w-full h-full"
-                  data-ai-hint={project.aiHint}
-                />
-              </div>
-              <CardTitle className="font-headline">{project.title}</CardTitle>
-            </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
-              <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
-                  <Badge key={tag} variant="secondary">{tag}</Badge>
-                ))}
-              </div>
-            </CardContent>
-            <CardFooter className="flex justify-end gap-2">
-              <Button variant="ghost" size="icon" asChild>
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
-                  <Github className="h-5 w-5" />
+          <Card key={project.title} className="bg-card/50 backdrop-blur-sm border-primary/20 hover:border-accent/50 transition-all duration-300 transform hover:-translate-y-1 flex flex-col overflow-hidden">
+            <div className="aspect-video overflow-hidden">
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={600}
+                height={400}
+                className="object-cover w-full h-full"
+                data-ai-hint={project.aiHint}
+              />
+            </div>
+            <div className="p-6 flex flex-col flex-grow">
+              <h3 className="font-headline text-xl font-bold">{project.title}</h3>
+              <p className="text-muted-foreground text-sm mt-2 mb-4 flex-grow">{project.description}</p>
+              <div className="flex justify-between items-center">
+                 <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="text-accent inline-flex items-center text-sm font-medium">
+                  Read more <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Live demo">
-                  <ExternalLink className="h-5 w-5" />
-                </a>
-              </Button>
-            </CardFooter>
+                <div className="flex gap-2">
+                  {project.githubUrl !== '#' && (
+                    <Button variant="ghost" size="icon" asChild>
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
+                        <Github className="h-5 w-5" />
+                      </a>
+                    </Button>
+                  )}
+                  {project.liveUrl !== '#' && (
+                     <Button variant="ghost" size="icon" asChild>
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Live demo">
+                        <ExternalLink className="h-5 w-5" />
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </div>
           </Card>
         ))}
       </div>
