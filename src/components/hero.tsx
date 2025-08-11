@@ -22,14 +22,14 @@ export default function Hero() {
       )}>
         <h1 className={cn(
           "font-headline font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
-          isAnimated ? "text-4xl sm:text-5xl" : "text-5xl sm:text-6xl"
+          isAnimated ? "text-5xl sm:text-6xl" : "text-6xl sm:text-7xl"
         )}>
           Prashant Gupta
         </h1>
       </div>
 
       <div className={cn(
-        "transition-all duration-700 ease-in-out mt-6",
+        "transition-all duration-700 ease-in-out",
         isAnimated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
       )}>
         <p className="text-lg sm:text-xl text-foreground/80 font-headline">
