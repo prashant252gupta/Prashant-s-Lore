@@ -33,10 +33,10 @@ export default function Hero() {
         isAnimated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
       )}>
         <p className="text-lg sm:text-xl text-foreground/80 font-headline">
-          business developor, growth marketer, solution architect & designer
+          BizDev, Growth Marketer, Solution Architect, Designer & Developer.
         </p>
-        <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-foreground/60">
-          I build beautiful, responsive, and highly performant web applications. Passionate about modern web technologies and clean, elegant design.
+        <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-foreground/80">
+        Now building Web3 growth systems that turn ideas into adoption. Passionate about modern web technologies and clean, elegant design.
         </p>
       </div>
     </section>
