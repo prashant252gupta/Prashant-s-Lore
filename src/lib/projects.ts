@@ -31,36 +31,6 @@ export const projects = [
     githubUrl: 'https://github.com/prashant252gupta/Stock_trend_prediction',
     aiHint: 'stock chart',
   },
-  {
-    slug: 'e-commerce-platform',
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce site with product listings, cart functionality, and a secure checkout process. Built with Next.js and Stripe.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['Next.js', 'React', 'TypeScript', 'Stripe', 'Tailwind'],
-    liveUrl: '#',
-    githubUrl: '#',
-    aiHint: 'online store',
-  },
-  {
-    slug: 'portfolio-template',
-    title: 'Portfolio Template',
-    description: 'A sleek, customizable portfolio template for developers and designers to showcase their work. Features a blog and contact form.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['Astro', 'React', 'Tailwind CSS', 'MDX'],
-    liveUrl: '#',
-    githubUrl: '#',
-    aiHint: 'website design',
-  },
-  {
-    slug: 'task-management-app',
-    title: 'Task Management App',
-    description: 'A collaborative task management tool with boards, lists, and cards. Inspired by Trello, with real-time updates using Firebase.',
-    image: 'https://placehold.co/600x400.png',
-    tags: ['React', 'Firebase', 'Zustand', 'Framer Motion'],
-    liveUrl: '#',
-    githubUrl: '#',
-    aiHint: 'productivity app',
-  },
 ];
 
 export type Project = (typeof projects)[0];
