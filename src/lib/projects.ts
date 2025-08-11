@@ -1,0 +1,66 @@
+import { Github, ExternalLink } from 'lucide-react';
+
+export const projects = [
+  {
+    slug: 'ai-web3-crm',
+    title: 'AI Web3 CRM',
+    description: 'A landing page for a Web3-focused CRM powered by AI. Designed to showcase features and capture leads.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['React', 'Next.js', 'AI', 'Web3', 'Tailwind CSS'],
+    liveUrl: 'https://ai-web3-crm-landing-page.netlify.app/',
+    githubUrl: '#',
+    aiHint: 'crm dashboard',
+  },
+  {
+    slug: 'nyxiebot',
+    title: 'Nyxiebot',
+    description: 'A multi-purpose bot for Discord, offering moderation, entertainment, and utility commands to enhance server engagement.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Node.js', 'Discord.js', 'JavaScript'],
+    liveUrl: 'https://nyxiebot.netlify.app/',
+    githubUrl: '#',
+    aiHint: 'discord bot',
+  },
+  {
+    slug: 'stock-trend-prediction',
+    title: 'Stock Trend Prediction',
+    description: 'A machine learning model that predicts stock market trends using historical data and various technical indicators.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/prashant252gupta/Stock_trend_prediction',
+    aiHint: 'stock chart',
+  },
+  {
+    slug: 'e-commerce-platform',
+    title: 'E-commerce Platform',
+    description: 'A full-featured e-commerce site with product listings, cart functionality, and a secure checkout process. Built with Next.js and Stripe.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Next.js', 'React', 'TypeScript', 'Stripe', 'Tailwind'],
+    liveUrl: '#',
+    githubUrl: '#',
+    aiHint: 'online store',
+  },
+  {
+    slug: 'portfolio-template',
+    title: 'Portfolio Template',
+    description: 'A sleek, customizable portfolio template for developers and designers to showcase their work. Features a blog and contact form.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Astro', 'React', 'Tailwind CSS', 'MDX'],
+    liveUrl: '#',
+    githubUrl: '#',
+    aiHint: 'website design',
+  },
+  {
+    slug: 'task-management-app',
+    title: 'Task Management App',
+    description: 'A collaborative task management tool with boards, lists, and cards. Inspired by Trello, with real-time updates using Firebase.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['React', 'Firebase', 'Zustand', 'Framer Motion'],
+    liveUrl: '#',
+    githubUrl: '#',
+    aiHint: 'productivity app',
+  },
+];
+
+export type Project = (typeof projects)[0];
