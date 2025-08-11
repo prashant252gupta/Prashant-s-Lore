@@ -21,8 +21,8 @@ export default function Hero() {
         isAnimated ? 'scale-100 -translate-y-8' : 'scale-125'
       )}>
         <h1 className={cn(
-          "font-headline font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
-          isAnimated ? "text-5xl sm:text-6xl" : "text-6xl sm:text-7xl"
+          "font-headline-netflix font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
+          isAnimated ? "text-7xl sm:text-8xl" : "text-8xl sm:text-9xl"
         )}>
           Prashant Gupta
         </h1>
