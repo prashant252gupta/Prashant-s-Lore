@@ -35,7 +35,7 @@ export default function Hero() {
         <p className="text-xl sm:text-2xl text-foreground font-headline font-bold">
           BizDev, Growth Marketer, Solution Architect, Designer & Developer.
         </p>
-        <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-foreground/80">
+        <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-foreground/80">
         Now building Web3 growth systems that turn ideas into adoption. Passionate about modern web technologies and clean, elegant design.
         </p>
       </div>
