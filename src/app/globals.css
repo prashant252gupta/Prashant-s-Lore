@@ -39,7 +39,7 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 220 44% 8%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 98%;
     --card: 220 31% 10%;
     --card-foreground: 0 0% 98%;
@@ -53,7 +53,7 @@
     --muted-foreground: 0 0% 63.9%;
     --accent: 279 100% 66%;
     --accent-foreground: 0 0% 9%;
-    --destructive: 12 90% 62%;
+    --destructive: 0 63% 51%;
     --destructive-foreground: 0 0% 98%;
     --border: 218 49% 18%;
     --input: 218 49% 18%;
