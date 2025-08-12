@@ -16,7 +16,7 @@ export default function About() {
         <div className="lg:col-span-1 flex justify-center">
           <div className="relative w-64 h-64">
             <Image
-              src="https://placehold.co/400x400.png"
+              src="/images/pfp.png"
               alt="Prashant Gupta"
               width={400}
               height={400}
