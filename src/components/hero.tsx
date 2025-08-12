@@ -18,7 +18,7 @@ export default function Hero() {
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col items-center justify-center text-center">
       <div className={cn(
         "transition-all duration-1000 ease-in-out",
-        isAnimated ? 'scale-100 -translate-y-8' : 'scale-125'
+        isAnimated ? 'scale-100 -translate-y-8' : 'scale-100'
       )}>
         <h1 className={cn(
           "font-headline-netflix font-bold tracking-tight transition-all duration-1000 ease-in-out text-destructive",
