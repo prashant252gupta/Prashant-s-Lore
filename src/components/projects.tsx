@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link key={project.slug} href={`/projects/${project.slug}`} className="block group">
-            <Card className="bg-transparent backdrop-blur-sm border-0 shadow-none hover:border-accent/50 transition-all duration-300 transform hover:-translate-y-1 flex flex-col overflow-hidden h-full">
+            <Card className="bg-transparent backdrop-blur-sm border-0 shadow-none hover:shadow-2xl hover:shadow-accent/20 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden h-full">
               <div className="relative p-1 rounded-lg overflow-hidden bg-gradient-to-b from-primary/50 to-primary/20">
                 <div className="aspect-video overflow-hidden rounded-md">
                   <Image
