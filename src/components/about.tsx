@@ -14,9 +14,9 @@ export default function About() {
       <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">About Me</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
         <div className="lg:col-span-1 flex justify-center">
-          <div className="relative w-64 h-64">
+          <div className="relative w-64 h-64 rounded-full">
             <Image
-              src="/images/pfp.png"
+              src="/images/pfp.jpg"
               alt="Prashant Gupta"
               width={400}
               height={400}
