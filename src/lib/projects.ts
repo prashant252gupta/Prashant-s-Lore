@@ -20,7 +20,7 @@ export const projects = [
     image: '/images/Nyxie.png',
     tags: ['Node.js', 'Discord.js', 'JavaScript'],
     liveUrl: 'https://nyxiebot.netlify.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/prashant252gupta/Nyxie',
     aiHint: 'discord bot',
     documentation: `
 
