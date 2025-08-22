@@ -23,9 +23,7 @@ export const projects = [
     githubUrl: '#',
     aiHint: 'discord bot',
     documentation: `
-# Nyxie - Your AI Wingman
 
-**Talk dirty, undress minds.**
 
 ## Overview
 
@@ -82,6 +80,8 @@ Nyxie's intelligence is powered by a carefully structured backend flow using Gen
 - **Actionable Psychological Tips:** Every suggestion is backed by a concise strategic tip explaining the psychological principle at play.
 - **Sleek, Modern UI:** A dark, glassy interface inspired by modern design trends, creating an immersive and stylish user experience.
 - **Responsive Design:** Fully functional across desktop and mobile devices.
+
+![Vibe Quiz](/images/quize.png)
 
 ---
 

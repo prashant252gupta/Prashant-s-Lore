@@ -26,13 +26,15 @@ function formatDocumentation(doc: string) {
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/`(.*?)`/g, '<code class="bg-primary/20 text-accent px-1 py-0.5 rounded">$1</code>')
     .replace(/^- (.*)$/gm, '<li class="ml-6 mb-2">$1</li>')
+    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="my-8 rounded-lg shadow-lg" />')
     .replace(/(<li>.*<\/li>)/gs, '<ul class="list-disc list-inside">$1</ul>')
     .replace(/\n/g, '<br />')
     .replace(/<br \/>(\s*<br \/>)+/g, '<br />')
     .replace(/<br \/>\s*<h/g, '<h')
     .replace(/<br \/>\s*<ul/g, '<ul')
     .replace(/<br \/>\s*<\/ul/g, '</ul')
-    .replace(/<br \/>\s*<hr/g, '<hr');
+    .replace(/<br \/>\s*<hr/g, '<hr')
+    .replace(/<br \/>\s*<img/g, '<img');
 }
 
 
