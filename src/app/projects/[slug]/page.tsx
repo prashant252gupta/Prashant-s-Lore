@@ -47,23 +47,32 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               ))}
             </div>
 
-            <div className="aspect-video rounded-lg overflow-hidden border border-primary/20 mb-8">
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={1200}
-                height={675}
-                className="object-cover w-full h-full"
-                data-ai-hint={project.aiHint}
-              />
+            <div className="relative p-1 rounded-lg overflow-hidden bg-gradient-to-b from-primary/50 to-primary/20 mb-8">
+                <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={1200}
+                    height={675}
+                    className="object-cover w-full h-full rounded-md"
+                    data-ai-hint={project.aiHint}
+                />
             </div>
             
             <div className="prose prose-invert max-w-none text-foreground/80 text-lg mb-8">
               <p>{project.description}</p>
-              {/* You can add more detailed markdown content here in the future */}
             </div>
 
-            <div className="flex items-center gap-4">
+            {project.documentation && (
+              <div className="mt-12">
+                <h2 className="font-headline text-3xl font-bold mb-6">Documentation</h2>
+                <div 
+                  className="prose prose-invert max-w-none text-foreground/80"
+                  dangerouslySetInnerHTML={{ __html: project.documentation.replace(/###\s*(.*)/g, '<h3>$1</h3>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/`(.*?)`/g, '<code>$1</code>').replace(/\n/g, '<br />') }}
+                />
+              </div>
+            )}
+
+            <div className="flex items-center gap-4 mt-8">
               {project.liveUrl !== '#' && (
                 <Button asChild>
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
