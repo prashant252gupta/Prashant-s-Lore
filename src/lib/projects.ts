@@ -1,3 +1,4 @@
+
 import { Github, ExternalLink } from 'lucide-react';
 
 export const projects = [
@@ -15,7 +16,7 @@ export const projects = [
   {
     slug: 'nyxie',
     title: 'Nyxie',
-    description: 'A multi-purpose bot for Discord, offering moderation, entertainment, and utility commands to enhance server engagement.',
+    description: 'A sophisticated AI wingman designed to revolutionize your dating app experience, providing witty, strategic, and psychologically-backed advice.',
     image: '/images/Nyxie.png',
     tags: ['Node.js', 'Discord.js', 'JavaScript'],
     liveUrl: 'https://nyxiebot.netlify.app/',
