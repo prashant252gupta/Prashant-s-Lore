@@ -18,27 +18,27 @@ AI-Web3-CRM is an open-source, AI-powered Customer Relationship Management (CRM)
 This project demonstrates both technical execution and strategic thinking as a Business Developer: bridging user pain points in Web3 networking with practical, scalable tools.
 
 ### Tech Stack
-#### Frontend
-- **Framework:** Next.js (App Router, TypeScript)
-- **Styling:** Tailwind CSS and shadcn/ui (responsive and modular design)
-- **State Management:** React hooks with API integration
-- **Deployment:** Vercel
+- **Frontend**
+  - **Framework:** Next.js (App Router, TypeScript)
+  - **Styling:** Tailwind CSS and shadcn/ui (responsive and modular design)
+  - **State Management:** React hooks with API integration
+  - **Deployment:** Vercel
 
-#### Backend
-- **Framework:** Node.js with Express
-- **Database:** MongoDB with Mongoose ODM
-- **API:** REST endpoints for contacts, deals, and AI features
-- **Deployment:** Railway.app
-- **Configuration:** dotenv for environment management
+- **Backend**
+  - **Framework:** Node.js with Express
+  - **Database:** MongoDB with Mongoose ODM
+  - **API:** REST endpoints for contacts, deals, and AI features
+  - **Deployment:** Railway.app
+  - **Configuration:** dotenv for environment management
 
-#### AI Layer
-- **Current:** OpenAI API (for outreach generation, sentiment analysis, deal insights)
-- **Future:** LangChain integration for advanced context management
+- **AI Layer**
+  - **Current:** OpenAI API (for outreach generation, sentiment analysis, deal insights)
+  - **Future:** LangChain integration for advanced context management
 
-#### On-Chain Integration (Planned)
-- **Blockchains:** Ethereum and Polygon
-- **Indexer:** Node.js scripts to capture ERC-20 transfers and NFT interactions
-- **Roadmap:** Wallet-based contact enrichment and automatic deal scoring
+- **On-Chain Integration (Planned)**
+  - **Blockchains:** Ethereum and Polygon
+  - **Indexer:** Node.js scripts to capture ERC-20 transfers and NFT interactions
+  - **Roadmap:** Wallet-based contact enrichment and automatic deal scoring
 
 ### Features
 - **Contact Management:** Add, update, and manage contacts tailored to Web3 profiles (investors, partners, DAO leaders). Contact cards with detail modals for quick access.
@@ -52,6 +52,7 @@ This project demonstrates both technical execution and strategic thinking as a B
 - **Deployment Flow:** Frontend on Vercel → Backend on Railway → Database on MongoDB Atlas
 
 ### Psychology and Business Development Approach
+
 This project is not just a technical build but also a case study in product thinking.
 - **Problem Recognition:** Web3 professionals rely heavily on Discord, Telegram, and spreadsheets. Existing CRMs are too generic and not adapted for on-chain networking.
 - **Market Insight:** Traditional CRMs like HubSpot and Salesforce are powerful but lack wallet-level context.
@@ -65,11 +66,11 @@ This project is not just a technical build but also a case study in product thin
 - **For the Ecosystem:** Introduces a Web3-native alternative to traditional CRMs.
 
 ### Roadmap
-1. Core CRM with contacts and deals (Completed)
-2. Full-stack deployment with Vercel, Railway, and MongoDB Atlas (Completed)
-3. AI-powered outreach templates and deal insights (In Progress)
-4. Wallet-based contact enrichment (Planned)
-5. Deal flow analytics dashboard (Planned)
+- Core CRM with contacts and deals (Completed)
+- Full-stack deployment with Vercel, Railway, and MongoDB Atlas (Completed)
+- AI-powered outreach templates and deal insights (In Progress)
+- Wallet-based contact enrichment (Planned)
+- Deal flow analytics dashboard (Planned)
 
 ### Key Learnings
 - Balancing technical execution with user psychology makes products more impactful.
