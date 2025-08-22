@@ -66,7 +66,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             
             <div className="flex items-center gap-4 mb-6">
               {project.githubUrl !== '#' && (
-                <Button variant="secondary" asChild>
+                <Button asChild>
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-4 w-4" />
                     View on GitHub
