@@ -39,7 +39,16 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           </Button>
 
           <article>
-            <h1 className="font-headline text-4xl sm:text-5xl font-bold mb-6 text-destructive">{project.title}</h1>
+            <h1 className="font-headline text-4xl sm:text-5xl font-bold mb-4 text-destructive">{project.title}</h1>
+            
+            {project.githubUrl !== '#' && (
+              <Button variant="secondary" asChild className="mb-6">
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-4 w-4" />
+                  View on GitHub
+                </a>
+              </Button>
+            )}
 
             <div className="flex flex-wrap gap-2 mb-8">
               {project.tags.map((tag) => (
@@ -78,14 +87,6 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     View Live Site
-                  </a>
-                </Button>
-              )}
-              {project.githubUrl !== '#' && (
-                <Button variant="secondary" asChild>
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                    <Github className="mr-2 h-4 w-4" />
-                    View on GitHub
                   </a>
                 </Button>
               )}
