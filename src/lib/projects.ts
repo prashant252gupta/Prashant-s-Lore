@@ -18,7 +18,7 @@ export const projects = [
     title: 'Nyxie',
     description: 'A sophisticated AI wingman designed to revolutionize your dating app experience, providing witty, strategic, and psychologically-backed advice.',
     image: '/images/Nyxie.png',
-    tags: ['Node.js', 'Discord.js', 'JavaScript'],
+    tags: ['Next.js', 'React', 'Genkit', 'AI', 'Tailwind CSS'],
     liveUrl: 'https://nyxiebot.netlify.app/',
     githubUrl: 'https://github.com/prashant252gupta/Nyxie',
     aiHint: 'discord bot',
