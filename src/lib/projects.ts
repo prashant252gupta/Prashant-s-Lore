@@ -13,8 +13,8 @@ export const projects = [
     documentation: ``,
   },
   {
-    slug: 'nyxiebot',
-    title: 'Nyxiebot',
+    slug: 'nyxie',
+    title: 'Nyxie',
     description: 'A multi-purpose bot for Discord, offering moderation, entertainment, and utility commands to enhance server engagement.',
     image: '/images/Nyxie.png',
     tags: ['Node.js', 'Discord.js', 'JavaScript'],
