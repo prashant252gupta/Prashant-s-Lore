@@ -136,15 +136,13 @@ Nyxie's intelligence is powered by a carefully structured backend flow using Gen
 ---
 
 ## Key Features
-
+![Vibe Quiz](/images/quize.png)
 - **Dynamic Vibe Quiz:** A quick, three-question quiz to analyze the user's personality, allowing the AI to tailor its advice.
 - **Six Distinct AI Personas:** Choose from a curated roster of iconic characters, each with a unique voice, style, and strategic approach.
 - **Strategic Response Generation:** Receive short, impactful, and ready-to-use responses to send to dating app matches.
 - **Actionable Psychological Tips:** Every suggestion is backed by a concise strategic tip explaining the psychological principle at play.
 - **Sleek, Modern UI:** A dark, glassy interface inspired by modern design trends, creating an immersive and stylish user experience.
 - **Responsive Design:** Fully functional across desktop and mobile devices.
-
-![Vibe Quiz](/images/quize.png)
 
 ---
 
