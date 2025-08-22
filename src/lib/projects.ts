@@ -11,7 +11,71 @@ export const projects = [
     liveUrl: 'https://ai-web3-crm-landing-page.netlify.app/',
     githubUrl: '#',
     aiHint: 'crm dashboard',
-    documentation: ``,
+    documentation: `### Overview
+
+AI-Web3-CRM is an open-source, AI-powered Customer Relationship Management (CRM) platform designed specifically for the Web3 ecosystem. It integrates on-chain data, AI-driven insights, and business development workflows tailored for founders, investors, and community managers.
+
+This project demonstrates both technical execution and strategic thinking as a Business Developer: bridging user pain points in Web3 networking with practical, scalable tools.
+
+### Tech Stack
+#### Frontend
+- **Framework:** Next.js (App Router, TypeScript)
+- **Styling:** Tailwind CSS and shadcn/ui (responsive and modular design)
+- **State Management:** React hooks with API integration
+- **Deployment:** Vercel
+
+#### Backend
+- **Framework:** Node.js with Express
+- **Database:** MongoDB with Mongoose ODM
+- **API:** REST endpoints for contacts, deals, and AI features
+- **Deployment:** Railway.app
+- **Configuration:** dotenv for environment management
+
+#### AI Layer
+- **Current:** OpenAI API (for outreach generation, sentiment analysis, deal insights)
+- **Future:** LangChain integration for advanced context management
+
+#### On-Chain Integration (Planned)
+- **Blockchains:** Ethereum and Polygon
+- **Indexer:** Node.js scripts to capture ERC-20 transfers and NFT interactions
+- **Roadmap:** Wallet-based contact enrichment and automatic deal scoring
+
+### Features
+- **Contact Management:** Add, update, and manage contacts tailored to Web3 profiles (investors, partners, DAO leaders). Contact cards with detail modals for quick access.
+- **Deal Tracking:** Pipeline view to track partnerships, collaborations, and investments. Add and update deals dynamically, connected directly to MongoDB. Full CRUD functionality.
+- **AI Insights (In Progress):** AI-generated outreach templates based on deal stage, sentiment analysis on conversations, and suggestions for next steps in deal progression.
+- **On-Chain Data (Planned):** Enrich contact profiles with wallet activity. Identify high-value wallet addresses and power users.
+
+### Architecture
+- **Frontend Flow:** Next.js (App Router) → API calls → Express Backend → MongoDB
+- **Backend Flow:** Express routes (/api/contacts, /api/deals) → Mongoose Schemas → MongoDB Atlas
+- **Deployment Flow:** Frontend on Vercel → Backend on Railway → Database on MongoDB Atlas
+
+### Psychology and Business Development Approach
+This project is not just a technical build but also a case study in product thinking.
+- **Problem Recognition:** Web3 professionals rely heavily on Discord, Telegram, and spreadsheets. Existing CRMs are too generic and not adapted for on-chain networking.
+- **Market Insight:** Traditional CRMs like HubSpot and Salesforce are powerful but lack wallet-level context.
+- **Strategic Differentiation:** Combining AI with on-chain data creates a tool uniquely suited to Web3 deal-making.
+- **User Psychology:** Business developers value speed, so the UI prioritizes modals and shortcuts. Manual data entry is avoided by using AI-driven automation. Relationship leverage is enhanced by merging on-chain and off-chain data.
+- **Positioning:** AI-Web3-CRM is not only a CRM but also proof that I can design, execute, and scale tools for the Web3 ecosystem.
+
+### Business Impact
+- **For Projects:** Build stronger relationships with investors and communities.
+- **For BD Professionals:** Reduce time to close deals with AI guidance.
+- **For the Ecosystem:** Introduces a Web3-native alternative to traditional CRMs.
+
+### Roadmap
+1. Core CRM with contacts and deals (Completed)
+2. Full-stack deployment with Vercel, Railway, and MongoDB Atlas (Completed)
+3. AI-powered outreach templates and deal insights (In Progress)
+4. Wallet-based contact enrichment (Planned)
+5. Deal flow analytics dashboard (Planned)
+
+### Key Learnings
+- Balancing technical execution with user psychology makes products more impactful.
+- Building openly on GitHub establishes credibility and invites collaboration.
+- Business development is not only about outreach and closing but also about building systems that scale relationships.
+`,
   },
   {
     slug: 'nyxie',
@@ -23,8 +87,6 @@ export const projects = [
     githubUrl: 'https://github.com/prashant252gupta/Nyxie',
     aiHint: 'discord bot',
     documentation: `
-
-
 ## Overview
 ![Nyxie Chat](/images/chat.png)
 Nyxie is not just another dating assistant; it's a sophisticated AI wingman designed to revolutionize your dating app experience. By embodying one of six distinct, iconic personas, Nyxie provides users with witty, strategic, and psychologically-backed advice on how to craft the perfect responses for their matches. It analyzes your unique personality through a quick "vibe quiz" and helps you navigate the complex world of modern romance with confidence and charm.
