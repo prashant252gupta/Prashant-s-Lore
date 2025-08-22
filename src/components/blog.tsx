@@ -26,7 +26,7 @@ const blogPosts = [
 export default function Blog() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12 text-destructive">From My Blog</h2>
+      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">From My Blog</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogPosts.map((post) => (
           <Card key={post.title} className="bg-card/50 backdrop-blur-sm border-primary/20 hover:border-accent/50 transition-all duration-300 flex flex-col">
