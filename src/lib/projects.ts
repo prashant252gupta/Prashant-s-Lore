@@ -17,26 +17,6 @@ AI-Web3-CRM is an open-source, AI-powered Customer Relationship Management (CRM)
 
 This project demonstrates both technical execution and strategic thinking as a Business Developer: bridging user pain points in Web3 networking with practical, scalable tools.
 
-### Tech Stack
-- **Frontend**
-  - **Framework:** Next.js (App Router, TypeScript)
-  - **Styling:** Tailwind CSS and shadcn/ui (responsive and modular design)
-  - **State Management:** React hooks with API integration
-  - **Deployment:** Vercel
-- **Backend**
-  - **Framework:** Node.js with Express
-  - **Database:** MongoDB with Mongoose ODM
-  - **API:** REST endpoints for contacts, deals, and AI features
-  - **Deployment:** Railway.app
-  - **Configuration:** dotenv for environment management
-- **AI Layer**
-  - **Current:** OpenAI API (for outreach generation, sentiment analysis, deal insights)
-  - **Future:** LangChain integration for advanced context management
-- **On-Chain Integration (Planned)**
-  - **Blockchains:** Ethereum and Polygon
-  - **Indexer:** Node.js scripts to capture ERC-20 transfers and NFT interactions
-  - **Roadmap:** Wallet-based contact enrichment and automatic deal scoring
-
 ### Features
 - **Contact Management:** Add, update, and manage contacts tailored to Web3 profiles (investors, partners, DAO leaders). Contact cards with detail modals for quick access.
 - **Deal Tracking:** Pipeline view to track partnerships, collaborations, and investments. Add and update deals dynamically, connected directly to MongoDB. Full CRUD functionality.
