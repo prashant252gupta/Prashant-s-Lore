@@ -9,7 +9,7 @@ export const projects = [
     image: '/images/CRM.png',
     tags: ['React', 'Next.js', 'AI', 'Web3', 'Tailwind CSS'],
     liveUrl: 'https://ai-web3-crm-landing-page.netlify.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/prashant252gupta/AI-Web3-CRM',
     aiHint: 'crm dashboard',
     documentation: `### Overview
 
