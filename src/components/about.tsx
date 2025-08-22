@@ -11,10 +11,10 @@ const skills = [
 export default function About() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">About Me</h2>
+      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12 text-destructive">About Me</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 items-center">
         <div className="lg:col-span-1 flex justify-center">
-          <div className="relative w-64 h-64 rounded-full">
+          <div className="relative w-64 h-64">
             <Image
               src="/images/pfp.jpg"
               alt="Prashant Gupta"

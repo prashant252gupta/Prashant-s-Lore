@@ -60,7 +60,7 @@ export default function Contact() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div className="max-w-2xl mx-auto">
-        <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-4">Get In Touch</h2>
+        <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-4 text-destructive">Get In Touch</h2>
         <p className="text-center text-muted-foreground mb-8">
           Have a project in mind or just want to say hi? Fill out the form below.
         </p>

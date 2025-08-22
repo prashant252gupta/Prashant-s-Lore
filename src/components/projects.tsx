@@ -9,7 +9,7 @@ import { projects } from '@/lib/projects';
 export default function Projects() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">My Projects</h2>
+      <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12 text-destructive">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link key={project.slug} href={`/projects/${project.slug}`} className="block group">

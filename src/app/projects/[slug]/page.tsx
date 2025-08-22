@@ -39,7 +39,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           </Button>
 
           <article>
-            <h1 className="font-headline text-4xl sm:text-5xl font-bold mb-4 text-foreground">{project.title}</h1>
+            <h1 className="font-headline text-4xl sm:text-5xl font-bold mb-4 text-destructive">{project.title}</h1>
 
             <div className="flex flex-wrap gap-2 mb-6">
               {project.tags.map((tag) => (
@@ -64,7 +64,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
             {project.documentation && (
               <div className="mt-12">
-                <h2 className="font-headline text-3xl font-bold mb-6">Documentation</h2>
+                <h2 className="font-headline text-3xl font-bold mb-6 text-destructive">Documentation</h2>
                 <div 
                   className="prose prose-invert max-w-none text-foreground/80"
                   dangerouslySetInnerHTML={{ __html: project.documentation.replace(/###\s*(.*)/g, '<h3>$1</h3>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/`(.*?)`/g, '<code>$1</code>').replace(/\n/g, '<br />') }}
