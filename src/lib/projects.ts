@@ -26,7 +26,7 @@ export const projects = [
 
 
 ## Overview
-
+![Nyxie Chat](/images/chat.png)
 Nyxie is not just another dating assistant; it's a sophisticated AI wingman designed to revolutionize your dating app experience. By embodying one of six distinct, iconic personas, Nyxie provides users with witty, strategic, and psychologically-backed advice on how to craft the perfect responses for their matches. It analyzes your unique personality through a quick "vibe quiz" and helps you navigate the complex world of modern romance with confidence and charm.
 
 ---
