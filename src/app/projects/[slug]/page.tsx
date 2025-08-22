@@ -17,12 +17,33 @@ function getProject(slug: string): Project | undefined {
   return projects.find((project) => project.slug === slug);
 }
 
+function formatDocumentation(doc: string) {
+  return doc
+    .replace(/^#\s(.*?)$/gm, '<h1 class="text-4xl font-headline font-bold my-6">$1</h1>')
+    .replace(/^##\s(.*?)$/gm, '<h2 class="text-3xl font-headline font-bold mt-12 mb-6">$1</h2>')
+    .replace(/^###\s(.*?)$/gm, '<h3 class="text-2xl font-headline font-bold mt-8 mb-4">$1</h3>')
+    .replace(/---/g, '<hr class="my-8 border-primary/20" />')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`(.*?)`/g, '<code class="bg-primary/20 text-accent px-1 py-0.5 rounded">$1</code>')
+    .replace(/^- (.*)$/gm, '<li class="ml-6 mb-2">$1</li>')
+    .replace(/(<li>.*<\/li>)/gs, '<ul class="list-disc list-inside">$1</ul>')
+    .replace(/\n/g, '<br />')
+    .replace(/<br \/>(\s*<br \/>)+/g, '<br />')
+    .replace(/<br \/>\s*<h/g, '<h')
+    .replace(/<br \/>\s*<ul/g, '<ul')
+    .replace(/<br \/>\s*<\/ul/g, '</ul')
+    .replace(/<br \/>\s*<hr/g, '<hr');
+}
+
+
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = getProject(params.slug);
 
   if (!project) {
     notFound();
   }
+
+  const formattedDocumentation = project.documentation ? formatDocumentation(project.documentation) : '';
 
   return (
     <div className="bg-background min-h-screen">
@@ -73,10 +94,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
             {project.documentation && (
               <div className="mt-16">
-                <h2 className="font-headline text-3xl font-bold mb-8 text-destructive">Documentation</h2>
                 <div 
                   className="prose prose-invert max-w-none text-foreground/80"
-                  dangerouslySetInnerHTML={{ __html: project.documentation.replace(/###\s*(.*)/g, '<h3>$1</h3>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/`(.*?)`/g, '<code>$1</code>').replace(/\n/g, '<br />') }}
+                  dangerouslySetInnerHTML={{ __html: formattedDocumentation }}
                 />
               </div>
             )}
