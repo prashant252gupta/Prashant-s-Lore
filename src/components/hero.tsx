@@ -36,7 +36,7 @@ export default function Hero() {
           BizDev, Solution Architect, Designer & Developer.
         </p>
         <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-foreground/80">
-        Now building Web3 growth systems that turn ideas into adoption. Passionate about modern web technologies and clean, elegant design.
+        Now building growth systems that turn ideas into adoption. Passionate about modern web technologies and clean, elegant design.
         </p>
       </div>
     </section>
