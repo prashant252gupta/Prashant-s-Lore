@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Briefcase, FolderKanban } from 'lucide-react';
+import { Briefcase } from 'lucide-react';
 
 const navItems = [
   {
@@ -29,7 +29,16 @@ const navItems = [
   {
     name: 'Projects',
     link: '#projects',
-    icon: <FolderKanban className="h-6 w-6" />,
+    icon: (
+      <Image
+        src="/images/gundam.png"
+        alt="Projects"
+        width={40}
+        height={40}
+        className="object-contain"
+        data-ai-hint="robot"
+      />
+    ),
     animationClass: 'animate-gentle-float-3',
     size: 'w-14 h-14',
   },
