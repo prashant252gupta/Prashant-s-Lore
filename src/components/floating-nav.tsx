@@ -28,7 +28,7 @@ const navItems = [
         alt="Experience"
         width={40}
         height={40}
-        className="object-contain rounded-full"
+        className="object-contain"
         data-ai-hint="money"
       />
     ),
@@ -40,12 +40,12 @@ const navItems = [
     link: '#projects',
     icon: (
       <Image
-        src="/images/gundam.png?v=2"
+        src="/images/gun.gif"
         alt="Projects"
         width={40}
         height={40}
         className="object-contain rounded-full"
-        data-ai-hint="robot"
+        data-ai-hint="gun"
       />
     ),
     animationClass: 'animate-gentle-float-3',
