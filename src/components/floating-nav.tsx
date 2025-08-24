@@ -8,7 +8,7 @@ const navItems = [
     link: '#about',
     icon: (
       <Image
-        src="/images/pfp.jpg"
+        src="/images/iFace.png"
         alt="Prashant Gupta"
         width={56}
         height={56}
