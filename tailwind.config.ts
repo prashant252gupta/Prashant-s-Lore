@@ -91,21 +91,21 @@ export default {
         },
         'gentle-float-1': {
           '0%, 100%': { transform: 'translate(0, 0) rotate(0deg)' },
-          '25%': { transform: 'translate(1px, -2px) rotate(0.5deg)' },
-          '50%': { transform: 'translate(-1px, 2px) rotate(-0.5deg)' },
-          '75%': { transform: 'translate(1px, 1px) rotate(0.25deg)' },
+          '25%': { transform: 'translate(0.5px, -1px) rotate(0.25deg)' },
+          '50%': { transform: 'translate(-0.5px, 1px) rotate(-0.25deg)' },
+          '75%': { transform: 'translate(0.5px, 0.5px) rotate(0.1deg)' },
         },
         'gentle-float-2': {
           '0%, 100%': { transform: 'translate(0, 0) rotate(0deg)' },
-          '25%': { transform: 'translate(-2px, 1px) rotate(-0.5deg)' },
-          '50%': { transform: 'translate(1px, -2px) rotate(1deg)' },
-          '75%': { transform: 'translate(-1px, -1px) rotate(-0.75deg)' },
+          '25%': { transform: 'translate(-1px, 0.5px) rotate(-0.25deg)' },
+          '50%': { transform: 'translate(0.5px, -1px) rotate(0.5deg)' },
+          '75%': { transform: 'translate(-0.5px, -0.5px) rotate(-0.3deg)' },
         },
         'gentle-float-3': {
           '0%, 100%': { transform: 'translate(0, 0) rotate(0deg)' },
-          '25%': { transform: 'translate(2px, 2px) rotate(0.5deg)' },
-          '50%': { transform: 'translate(-2px, -2px) rotate(-0.5deg)' },
-          '75%': { transform: 'translate(2px, -2px) rotate(0.75deg)' },
+          '25%': { transform: 'translate(1px, 1px) rotate(0.25deg)' },
+          '50%': { transform: 'translate(-1px, -1px) rotate(-0.25deg)' },
+          '75%': { transform: 'translate(1px, -1px) rotate(0.35deg)' },
         }
       },
       animation: {
