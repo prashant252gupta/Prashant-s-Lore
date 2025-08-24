@@ -179,9 +179,9 @@ Nyxie is built with a modern, powerful, and scalable technology stack.
   {
     slug: 'stock-trend-prediction',
     title: 'Stock Trend Prediction',
-    description: 'A machine learning model that predicts stock market trends using historical data and various technical indicators.',
+    description: 'A machine learning model that predicts stock market trends using historical data and various technical indicators, deployed as an interactive web app.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
+    tags: ['Python', 'Machine Learning', 'Deep Learning', 'Pandas', 'Scikit-learn', 'Keras', 'TensorFlow', 'Streamlit'],
     liveUrl: '#',
     githubUrl: 'https://github.com/prashant252gupta/Stock_trend_prediction',
     aiHint: 'stock chart',
