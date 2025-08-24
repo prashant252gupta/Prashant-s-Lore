@@ -89,15 +89,15 @@ export default {
             height: '0',
           },
         },
-        float: {
+        'gentle-float': {
           '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
-          '50%': { transform: 'translateY(-15px) rotate(5deg)' },
+          '50%': { transform: 'translateY(-10px) rotate(-3deg)' },
         }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'float': 'float 6s ease-in-out infinite',
+        'gentle-float': 'gentle-float 8s ease-in-out infinite',
       },
     },
   },
