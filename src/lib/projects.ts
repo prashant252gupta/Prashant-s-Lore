@@ -7,7 +7,7 @@ export const projects = [
     title: 'AI Web3 CRM',
     description: 'A landing page for a Web3-focused CRM powered by AI. Designed to showcase features and capture leads.',
     image: '/images/CRM.png',
-    tags: ['React', 'Next.js', 'AI', 'Web3', 'Tailwind CSS'],
+    tags: ['React', 'Next.js', 'AI', 'Web3', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Vercel'],
     liveUrl: 'https://ai-web3-crm-landing-page.netlify.app/',
     githubUrl: 'https://github.com/prashant252gupta/AI-Web3-CRM',
     aiHint: 'crm dashboard',
