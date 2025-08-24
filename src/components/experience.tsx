@@ -22,9 +22,9 @@ const professionalExperience = [
     period: '2021',
     githubUrl: 'https://github.com/prashant252gupta/Azure-Resource-Dashboard',
     details: [
-      'Mentored aspiring Cloud Solution Architects through the Microsoft Aspire program.',
-      'Provided guidance on technical skills, career development, and solution design.',
-      'Fostered a collaborative learning environment for program participants.',
+      'Built an AZURE RESOURCE DASHBOARD to track deployments by region, improving RESILIENCY and COST VISIBILITY for users.',
+      'Converted raw infra data into ACTIONABLE INSIGHTS that guided SCALING and OPTIMIZATION decisions.',
+      'Developed the tool with REACT, MONGODB, APIS, HTML/CSS, showcasing END-TO-END DELIVERY from design to CLIENT IMPACT.',
     ],
   },
 ];
