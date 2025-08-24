@@ -271,6 +271,7 @@ The core design principle was to create an immersive, "zero-gravity" feel. I wan
 
 ---
 
+![Spline](/images/spline.png)
 ## 3D Modeling and Animation with Spline
 
 The animated, abstract 3D background is the centerpiece of the portfolio's design. It was created and animated entirely within **Spline**, a web-based 3D design tool.
