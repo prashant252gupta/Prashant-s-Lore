@@ -9,11 +9,10 @@ const professionalExperience = [
     company: 'Microsoft',
     period: '2022 - 2024',
     details: [
-      'Drove CLOUD ADOPTION for 15+ startups, delivering up to 30% COST SAVINGS as a strategic partner.',
-      'Acted as a TRUSTED ADVISOR to CXOs, helping SaaS clients SCALE FASTER and enter new markets.',
-      'Led end-to-end PRE-SALES and POST-SALES cycles, boosting AZURE ADOPTION and CLIENT RETENTION.',
-      'Delivered TAILORED SOLUTIONS by collaborating with product, sales, and technical teams.',
-      'Translated complex architectures into clear VALUE PROPOSITIONS to accelerate deals.',
+      'Partnered with 15+ startups to drive cloud adoption, delivering up to 30% cost savings as a strategic infrastructure partner.',
+      'Acted as a trusted advisor to CXOs, helping SaaS clients scale faster and enter new markets by aligning cloud solutions with business goals.',
+      'Led end-to-end pre-sales and post-sales cycles, boosting Azure adoption and ensuring long-term client retention.',
+      'Delivered tailored solutions by collaborating with product, sales, and technical teams, translating complex architectures into clear value propositions.',
     ],
   },
   {
@@ -22,9 +21,9 @@ const professionalExperience = [
     period: '2021',
     githubUrl: 'https://github.com/prashant252gupta/Azure-Resource-Dashboard',
     details: [
-      'Built an AZURE RESOURCE DASHBOARD to track deployments by region, improving RESILIENCY and COST VISIBILITY for users.',
-      'Converted raw infra data into ACTIONABLE INSIGHTS that guided SCALING and OPTIMIZATION decisions.',
-      'Developed the tool with REACT, MONGODB, APIS, HTML/CSS, showcasing END-TO-END DELIVERY from design to CLIENT IMPACT.',
+      'Built an Azure resource dashboard to track deployments by region, improving resiliency and cost visibility for users.',
+      'Converted raw infrastructure data into actionable insights that guided scaling and optimization decisions.',
+      'Developed the tool with React, MongoDB, and REST APIs, showcasing end-to-end delivery from design to client impact.',
     ],
   },
 ];
