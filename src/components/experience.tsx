@@ -2,6 +2,7 @@ import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/com
 import { Briefcase, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const professionalExperience = [
   {
@@ -43,7 +44,14 @@ export default function Experience() {
                 </CardDescription>
               </div>
               <div className="flex items-center justify-center rounded-lg bg-primary/10 p-3">
-                  <Briefcase className="h-6 w-6 text-accent" />
+                  <Image
+                    src="/images/money.gif"
+                    alt="Experience"
+                    width={24}
+                    height={24}
+                    className="object-contain"
+                    data-ai-hint="money"
+                  />
               </div>
             </CardHeader>
             <CardContent>

@@ -22,7 +22,16 @@ const navItems = [
   {
     name: 'Experience',
     link: '#experience',
-    icon: <Briefcase className="h-6 w-6" />,
+    icon: (
+      <Image
+        src="/images/money.gif"
+        alt="Experience"
+        width={40}
+        height={40}
+        className="object-contain rounded-full"
+        data-ai-hint="money"
+      />
+    ),
     animationClass: 'animate-gentle-float-2',
     size: 'w-14 h-14',
   },
