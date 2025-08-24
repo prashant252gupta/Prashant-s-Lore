@@ -43,16 +43,18 @@ export default function Experience() {
                   {exp.company} &middot; {exp.period}
                 </CardDescription>
               </div>
-              <div className="flex items-center justify-center rounded-lg bg-primary/10 p-3">
-                  <Image
-                    src="/images/money.gif"
-                    alt="Experience"
-                    width={24}
-                    height={24}
-                    className="object-contain"
-                    data-ai-hint="money"
-                  />
-              </div>
+              {index === 0 && (
+                <div className="flex items-center justify-center rounded-lg bg-primary/10 p-3">
+                    <Image
+                      src="/images/money.gif"
+                      alt="Experience"
+                      width={24}
+                      height={24}
+                      className="object-contain"
+                      data-ai-hint="money"
+                    />
+                </div>
+              )}
             </CardHeader>
             <CardContent>
               <ul className="list-disc list-inside space-y-2 text-foreground/80">
