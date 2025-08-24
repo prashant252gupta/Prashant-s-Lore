@@ -5,7 +5,7 @@ const professionalExperience = [
   {
     role: 'Cloud Solutions Architect',
     company: 'Microsoft',
-    period: '2022 - Present',
+    period: '2022 - 2024',
     details: [
       'Architected and deployed scalable, secure, and resilient cloud solutions on Microsoft Azure for enterprise clients.',
       'Collaborated with sales and engineering teams to drive adoption of cloud services.',
