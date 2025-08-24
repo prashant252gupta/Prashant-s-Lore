@@ -9,9 +9,11 @@ const professionalExperience = [
     company: 'Microsoft',
     period: '2022 - 2024',
     details: [
-      'Architected and deployed scalable, secure, and resilient cloud solutions on Microsoft Azure for enterprise clients.',
-      'Collaborated with sales and engineering teams to drive adoption of cloud services.',
-      'Provided technical guidance and best practices to customers, ensuring successful cloud migrations and modernizations.',
+      'Partnered with 15+ Indian startups to drive cloud adoption and growth, positioning Microsoft Azure as their strategic infra partner and unlocking up to 30% cost savings.',
+      'Acted as a trusted advisor for CXOs and founders, aligning cloud solutions with business goals and helping SaaS clients scale faster and enter new markets.',
+      'Supported both pre-sales and post-sales engagements, contributing directly to Azure adoption, renewals, and long-term client retention.',
+      'Collaborated cross-functionally with product, sales, and technical teams to deliver tailored solutions, while conducting business-impact reviews to ensure measurable ROI for clients.',
+      'Specialized in turning complex technical architectures into clear value propositions that drove decision-making and accelerated deals.',
     ],
   },
   {
