@@ -16,36 +16,35 @@ const navItems = [
         data-ai-hint="man portrait"
       />
     ),
-    className: 'row-start-1 col-start-1',
+    animationClass: 'animate-gentle-float-1',
   },
   {
     name: 'Experience',
     link: '#experience',
     icon: <Briefcase className="h-6 w-6" />,
-    className: 'row-start-1 col-start-2',
+    animationClass: 'animate-gentle-float-2',
   },
   {
     name: 'Projects',
     link: '#projects',
     icon: <FolderKanban className="h-6 w-6" />,
-    className: 'row-start-2 col-start-1',
+    animationClass: 'animate-gentle-float-3',
   },
 ];
 
 export default function FloatingNav() {
   return (
-    <div className="fixed top-4 left-4 z-50 grid grid-cols-2 grid-rows-2 gap-4">
+    <div className="fixed top-4 left-4 z-50">
       {navItems.map((item, index) => (
         <Link key={item.name} href={item.link}>
           <div
             className={`group relative flex items-center justify-center w-16 h-16 rounded-full bg-card/50 backdrop-blur-sm border border-primary/20 shadow-lg cursor-pointer
-                       transform transition-transform duration-500 ease-in-out animate-gentle-float ${item.className}`}
-            style={{ animationDelay: `${index * 0.5}s` }}
+                       transform transition-transform duration-500 ease-in-out ${item.animationClass} mb-4`}
           >
             <div className="text-accent transition-transform duration-300 group-hover:scale-110">
               {item.icon}
             </div>
-            <span className="absolute top-full mt-2 w-max bg-primary text-primary-foreground text-sm px-3 py-1 rounded-md shadow-lg
+            <span className="absolute left-full ml-4 w-max bg-primary text-primary-foreground text-sm px-3 py-1 rounded-md shadow-lg
                              opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
               {item.name}
             </span>
