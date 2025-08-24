@@ -1,5 +1,7 @@
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card';
-import { Briefcase } from 'lucide-react';
+import { Briefcase, Github } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const professionalExperience = [
   {
@@ -16,6 +18,7 @@ const professionalExperience = [
     role: 'CSA Aspire Mentorship',
     company: 'Microsoft',
     period: '2021',
+    githubUrl: 'https://github.com/prashant252gupta/Azure-Resource-Dashboard',
     details: [
       'Mentored aspiring Cloud Solution Architects through the Microsoft Aspire program.',
       'Provided guidance on technical skills, career development, and solution design.',
@@ -48,6 +51,14 @@ export default function Experience() {
                   <li key={i}>{detail}</li>
                 ))}
               </ul>
+              {exp.githubUrl && (
+                <Button asChild className="mt-4">
+                  <a href={exp.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <Github className="mr-2 h-4 w-4" />
+                    View on GitHub
+                  </a>
+                </Button>
+              )}
             </CardContent>
           </Card>
         ))}
