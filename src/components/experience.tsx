@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const professionalExperience = [
   {
-    role: 'Cloud Solutions Architect',
+    role: 'Cloud Solutions Architect (Infrastructure)',
     company: 'Microsoft',
     period: '2022 - 2024',
     details: [
