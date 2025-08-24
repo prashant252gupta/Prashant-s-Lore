@@ -180,7 +180,7 @@ Nyxie is built with a modern, powerful, and scalable technology stack.
     slug: 'stock-trend-prediction',
     title: 'Stock Trend Prediction',
     description: 'A machine learning model that predicts stock market trends using historical data and various technical indicators, deployed as an interactive web app.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/stock.png',
     tags: ['Python', 'Machine Learning', 'Deep Learning', 'Pandas', 'Scikit-learn', 'Keras', 'TensorFlow', 'Streamlit'],
     liveUrl: '#',
     githubUrl: 'https://github.com/prashant252gupta/Stock_trend_prediction',
@@ -272,6 +272,7 @@ The core design principle was to create an immersive, "zero-gravity" feel. I wan
 ---
 
 ![Spline](/images/spline.png)
+
 ## 3D Modeling and Animation with Spline
 
 The animated, abstract 3D background is the centerpiece of the portfolio's design. It was created and animated entirely within **Spline**, a web-based 3D design tool.
