@@ -12,13 +12,23 @@ const professionalExperience = [
       'Provided technical guidance and best practices to customers, ensuring successful cloud migrations and modernizations.',
     ],
   },
+  {
+    role: 'CSA Aspire Mentorship',
+    company: 'Microsoft',
+    period: '2021',
+    details: [
+      'Mentored aspiring Cloud Solution Architects through the Microsoft Aspire program.',
+      'Provided guidance on technical skills, career development, and solution design.',
+      'Fostered a collaborative learning environment for program participants.',
+    ],
+  },
 ];
 
 export default function Experience() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <h2 className="font-headline text-3xl sm:text-4xl font-bold text-center mb-12">Professional Experience</h2>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto space-y-8">
         {professionalExperience.map((exp, index) => (
           <Card key={index} className="bg-card/50 backdrop-blur-sm border-primary/20">
             <CardHeader className="grid grid-cols-[1fr_auto] items-start gap-4 space-y-0">
