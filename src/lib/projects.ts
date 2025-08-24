@@ -247,14 +247,57 @@ This project successfully demonstrates the application of deep learning, specifi
   },
   {
     slug: 'portfolio',
-    title: 'Portfolio',
-    description: 'a design and 3D model and animation project',
+    title: 'This Portfolio Website',
+    description: 'A deep dive into the design, 3D modeling, and modern tech stack behind this interactive portfolio.',
     image: '/images/Lore.png',
-    tags: ['Design', '3D Modeling', 'Animation', 'Spline'],
+    tags: ['Next.js', 'React', 'Spline', 'Tailwind CSS', 'Design'],
     liveUrl: '#',
     githubUrl: '#',
     aiHint: '3d animation',
-    documentation: ``,
+    documentation: `
+## Overview
+
+This portfolio is more than just a collection of projects; it's a demonstration of my skills in design, 3D art, and full-stack development. The goal was to create a memorable and interactive experience that goes beyond a static page. By blending a dynamic 3D background with subtle animations and a clean, modern UI, the site itself becomes a showcase of my ability to merge technical execution with creative vision.
+
+---
+
+## Design Philosophy
+
+The core design principle was to create an immersive, "zero-gravity" feel. I wanted users to feel like they are floating through my digital space rather than just scrolling down a webpage.
+
+- **Visual Hierarchy:** The content scrolls over a persistent 3D background, creating a sense of depth. Key sections are anchored by a unique floating navigation system, which uses animated "bubbles" that gently drift on the screen, inviting interaction.
+- **Color & Typography:** A dark-mode theme with vibrant accent colors creates a modern, tech-focused aesthetic. The typography (\`Space Grotesk\` for headlines, \`Inter\` for body) was chosen for its clean, futuristic feel, ensuring readability while complementing the overall design.
+- **Micro-interactions:** Subtle animations on hover, button clicks, and scrolling are used throughout the site to provide feedback and make the experience feel more responsive and alive.
+
+---
+
+## 3D Modeling and Animation with Spline
+
+The animated, abstract 3D background is the centerpiece of the portfolio's design. It was created and animated entirely within **Spline**, a web-based 3D design tool.
+
+### The Process
+
+1.  **Conceptualization:** I started with simple geometric shapes—spheres, cubes, and toruses—and arranged them in a visually appealing composition. The goal was to create something that was abstract but felt cohesive, like a floating digital sculpture.
+2.  **Material and Lighting:** I applied emissive materials to the objects and used bloom effects to give them a soft, neon glow. The lighting is designed to be ambient and ethereal, enhancing the zero-gravity theme.
+3.  **Animation:** In Spline, I created state-based animations. The objects have a default "start" state and a looped "end" state with subtle rotations and movements. This creates a continuous, gentle animation that doesn't distract from the main content.
+4.  **Integration:** Spline provides a simple way to export scenes for the web. I embedded the scene directly into this Next.js application using the \`@splinetool/react-spline\` library, which handles the loading and rendering of the 3D model efficiently.
+
+This use of Spline demonstrates my ability to learn new tools and integrate creative assets into a professional web application, bridging the gap between design and development.
+
+---
+
+## Technology and Implementation
+
+This portfolio is built on a modern, performant, and scalable tech stack.
+
+- **Framework:** **Next.js (with App Router)** and **React** provide the foundation, enabling fast server-side rendering, efficient routing, and a component-based architecture.
+- **Language:** **TypeScript** is used throughout the project for type safety, which leads to more robust and maintainable code.
+- **Styling:** **Tailwind CSS** allows for rapid and consistent styling. The use of custom keyframe animations (like \`gentle-float\` for the navigation bubbles) adds a layer of unique personality to the site. All components are styled using utility classes, making the design system easy to manage.
+- **UI Components:** **ShadCN UI** provides a library of accessible and beautifully designed components that serve as the building blocks for the user interface. This accelerates development while ensuring a high standard of quality and consistency.
+- **Deployment:** The site is deployed on a modern cloud platform, ensuring high availability and fast load times for a global audience.
+
+By combining these technologies, I was able to build a portfolio that is not only visually engaging but also technically sound, performant, and easy to maintain.
+`,
   },
 ];
 
