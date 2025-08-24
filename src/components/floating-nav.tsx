@@ -24,14 +24,14 @@ const navItems = [
     link: '#experience',
     icon: <Briefcase className="h-6 w-6" />,
     animationClass: 'animate-gentle-float-2',
-    size: 'w-16 h-16',
+    size: 'w-14 h-14',
   },
   {
     name: 'Projects',
     link: '#projects',
     icon: <FolderKanban className="h-6 w-6" />,
     animationClass: 'animate-gentle-float-3',
-    size: 'w-16 h-16',
+    size: 'w-14 h-14',
   },
 ];
 
