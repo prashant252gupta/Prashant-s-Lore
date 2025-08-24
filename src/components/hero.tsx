@@ -36,7 +36,10 @@ export default function Hero() {
           BizDev, Solution Architect, Designer & Developer.
         </p>
         <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-foreground/80">
-        Now building growth systems that turn ideas into adoption. Passionate about modern web technologies and clean, elegant design.
+          Building growth systems that turn ideas into adoption. Obsessed with web3, sharp design, and tech that actually scales.
+        </p>
+        <p className="mt-4 text-base sm:text-lg text-foreground/80">
+          Undergrad @<a href="https://www.nitj.ac.in/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">NIT Jalandhar</a>
         </p>
       </div>
     </section>
