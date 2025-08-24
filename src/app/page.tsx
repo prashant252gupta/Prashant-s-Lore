@@ -1,6 +1,7 @@
 import About from '@/components/about';
 import Blog from '@/components/blog';
 import Contact from '@/components/contact';
+import Experience from '@/components/experience';
 import Footer from '@/components/footer';
 import Hero from '@/components/hero';
 import Projects from '@/components/projects';
@@ -16,6 +17,9 @@ export default function Home() {
         <main className="flex-grow">
           <div id="home" className="h-screen">
             <Hero />
+          </div>
+          <div id="experience">
+            <Experience />
           </div>
           <div id="projects">
             <Projects />
