@@ -31,7 +31,7 @@ const navItems = [
     link: '#projects',
     icon: (
       <Image
-        src="/images/gundam.png"
+        src="/images/gundam.png?v=2"
         alt="Projects"
         width={40}
         height={40}
