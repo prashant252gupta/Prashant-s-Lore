@@ -9,11 +9,11 @@ const professionalExperience = [
     company: 'Microsoft',
     period: '2022 - 2024',
     details: [
-      'Partnered with 15+ Indian startups to drive cloud adoption and growth, positioning Microsoft Azure as their strategic infra partner and unlocking up to 30% cost savings.',
-      'Acted as a trusted advisor for CXOs and founders, aligning cloud solutions with business goals and helping SaaS clients scale faster and enter new markets.',
-      'Supported both pre-sales and post-sales engagements, contributing directly to Azure adoption, renewals, and long-term client retention.',
-      'Collaborated cross-functionally with product, sales, and technical teams to deliver tailored solutions, while conducting business-impact reviews to ensure measurable ROI for clients.',
-      'Specialized in turning complex technical architectures into clear value propositions that drove decision-making and accelerated deals.',
+      'Partnered with 15+ Indian startups to drive CLOUD ADOPTION and GROWTH, positioning MICROSOFT AZURE as their strategic infra partner and unlocking up to 30% COST SAVINGS.',
+      'Acted as a TRUSTED ADVISOR for CXOs and founders, aligning cloud solutions with business goals and helping SaaS clients SCALE FASTER and enter new markets.',
+      'Supported both PRE-SALES and POST-SALES engagements, contributing directly to AZURE ADOPTION, RENEWALS, and long-term CLIENT RETENTION.',
+      'Collaborated cross-functionally with product, sales, and technical teams to deliver TAILORED SOLUTIONS, while conducting BUSINESS-IMPACT REVIEWS to ensure measurable ROI for clients.',
+      'Specialized in turning complex technical architectures into clear VALUE PROPOSITIONS that drove DECISION-MAKING and ACCELERATED DEALS.',
     ],
   },
   {
