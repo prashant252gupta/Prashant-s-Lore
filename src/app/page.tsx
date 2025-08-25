@@ -1,5 +1,5 @@
 import About from '@/components/about';
-import Contact from '@/components/contact';
+import LetsConnect from '@/components/contact';
 import Experience from '@/components/experience';
 import Footer from '@/components/footer';
 import Hero from '@/components/hero';
@@ -29,7 +29,7 @@ export default function Home() {
             <About />
           </div>
           <div id="contact">
-            <Contact />
+            <LetsConnect />
           </div>
         </main>
         <Footer />
