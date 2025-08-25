@@ -35,7 +35,7 @@ export default function About() {
           </p>
           <div className="mb-8">
             <Link href="/journey" className="inline-flex items-center text-accent hover:text-accent/90 transition-colors text-lg font-medium">
-              Read More about my Journey
+              More on Asymmetrical side Quests
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
