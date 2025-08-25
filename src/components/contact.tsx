@@ -6,22 +6,17 @@ const socialLinks = [
     {
         name: 'Twitter',
         description: 'Random Thoughts & Interesting Retweets',
-        url: 'https://twitter.com',
+        url: 'https://x.com/guptaji522',
     },
     {
         name: 'Instagram',
         description: 'Films, Animations & Photographs',
-        url: 'https://instagram.com',
+        url: 'https://www.instagram.com/that_asymmetrical_boy/',
     },
     {
         name: 'Linkedin',
         description: 'Professional & Work Related',
-        url: 'https://linkedin.com',
-    },
-    {
-        name: 'Dribbble',
-        description: 'Visual Design & Work in Progress',
-        url: 'https://dribbble.com',
+        url: 'https://www.linkedin.com/in/prashant252gupta/',
     },
     {
         name: 'Github',
@@ -30,8 +25,8 @@ const socialLinks = [
     },
     {
         name: 'Email',
-        description: 'prashant.gupta.dev@gmail.com',
-        url: 'mailto:prashant.gupta.dev@gmail.com',
+        description: 'pguptaprashant252@gmail.com',
+        url: 'mailto:pguptaprashant252@gmail.com',
         highlight: true,
     },
 ]
