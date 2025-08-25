@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { Code, Database, Wind, Brush, Zap } from 'lucide-react';
+import { Code, Database, Wind, Brush, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const skills = [
   { icon: Code, title: 'Frontend', description: 'React, Next.js, TypeScript, Tailwind' },
@@ -42,6 +43,12 @@ export default function About() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-8">
+            <Link href="/journey" className="inline-flex items-center text-accent hover:text-accent/90 transition-colors text-lg font-medium">
+              Read More about my Journey
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
           </div>
         </div>
       </div>
