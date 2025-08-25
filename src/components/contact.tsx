@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 const socialLinks = [
     {
@@ -27,6 +27,7 @@ const socialLinks = [
         name: 'Email',
         description: 'pguptaprashant252@gmail.com',
         url: 'mailto:pguptaprashant252@gmail.com',
+        highlight: true,
     },
 ]
 
@@ -43,16 +44,19 @@ export default function LetsConnect() {
                     href={link.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="group relative p-6 rounded-lg border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent hover:bg-card/80"
+                    className={cn(
+                        "group relative p-6 rounded-lg border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent/80",
+                        link.highlight ? "bg-accent text-accent-foreground lg:col-start-3" : "hover:bg-card/80"
+                    )}
                 >
-                    <div className="flex justify-between items-start">
-                        <div>
-                            <h3 className="font-headline font-bold text-lg">{link.name}</h3>
-                            <p className="mt-1 text-sm text-muted-foreground">
-                                {link.description}
-                            </p>
-                        </div>
-                        <ArrowUpRight className="w-5 h-5 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                    <div>
+                        <h3 className="font-headline font-bold text-lg">{link.name}</h3>
+                        <p className={cn(
+                            "mt-1 text-sm",
+                            link.highlight ? "text-accent-foreground/80" : "text-muted-foreground"
+                        )}>
+                            {link.description}
+                        </p>
                     </div>
                 </a>
             ))}
