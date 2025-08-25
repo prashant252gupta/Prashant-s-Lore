@@ -39,7 +39,7 @@ export default function Hero() {
           Building growth systems that turn ideas into adoption. Obsessed with web3, sharp design, and tech that actually scales.
         </p>
         <p className="mt-4 text-base sm:text-lg text-foreground/80">
-          Undergrad @<a href="https://www.nitj.ac.in/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">NIT Jalandhar</a>
+          Alum @<a href="https://www.nitj.ac.in/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">NIT Jalandhar</a>
         </p>
       </div>
     </section>
