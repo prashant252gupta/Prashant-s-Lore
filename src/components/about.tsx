@@ -4,7 +4,7 @@ import { Code, Database, Wind, Brush, Zap } from 'lucide-react';
 const skills = [
   { icon: Code, title: 'Frontend', description: 'React, Next.js, TypeScript, Tailwind' },
   { icon: Database, title: 'Backend', description: 'Node.js, Express, Firebase, MongoDB' },
-  { icon: Wind, title: 'Cloud & DevOps', description: 'Google Cloud, Vercel, Netlify, Docker' },
+  { icon: Wind, title: 'Cloud & DevOps', description: 'Azure, Kubernetes, Docker, Git, Netlify' },
   { icon: Brush, title: 'Design', description: 'Figma, Spline, UI/UX, Motion Design' },
 ];
 
