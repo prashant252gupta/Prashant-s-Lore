@@ -23,7 +23,7 @@ This project demonstrates both technical execution and strategic thinking as a B
 - Framework: Next.js (App Router, TypeScript)
 - Styling: Tailwind CSS and shadcn/ui (responsive and modular design)
 - State Management: React hooks with API integration
-- Deployment: Vercel
+- Deployment: Netlify
 
 **Backend**
 - Framework: Node.js with Express
@@ -50,7 +50,7 @@ This project demonstrates both technical execution and strategic thinking as a B
 ### Architecture
 - **Frontend Flow:** Next.js (App Router) → API calls → Express Backend → MongoDB
 - **Backend Flow:** Express routes (/api/contacts, /api/deals) → Mongoose Schemas → MongoDB Atlas
-- **Deployment Flow:** Frontend on Vercel → Backend on Railway → Database on MongoDB Atlas
+- **Deployment Flow:** Frontend on Netlify → Backend on Railway → Database on MongoDB Atlas
 
 ### Psychology and Business Development Approach
 
@@ -68,7 +68,7 @@ This project is not just a technical build but also a case study in product thin
 
 ### Roadmap
 - Core CRM with contacts and deals (Completed)
-- Full-stack deployment with Vercel, Railway, and MongoDB Atlas (Completed)
+- Full-stack deployment with Netlify, Railway, and MongoDB Atlas (Completed)
 - AI-powered outreach templates and deal insights (In Progress)
 - Wallet-based contact enrichment (Planned)
 - Deal flow analytics dashboard (Planned)
@@ -84,7 +84,7 @@ This project is not just a technical build but also a case study in product thin
     title: 'Nyxie',
     description: 'A sophisticated AI wingman designed to revolutionize your dating app experience, providing witty, strategic, and psychologically-backed advice.',
     image: '/images/Nyxie.png',
-    tags: ['Next.js', 'React', 'TypeScript', 'Genkit', 'Gemini Pro', 'AI', 'Tailwind CSS', 'ShadCN UI', 'UI/UX Design', 'Prompt Engineering', 'Netlify'],
+    tags: ['Next.js', 'React', 'TypeScript', 'Genkit', 'Gemini Pro', 'AI', 'Tailwind CSS', 'ShadCN UI', 'UI/UX Design', 'Netlify'],
     liveUrl: 'https://nyxiebot.netlify.app/',
     githubUrl: 'https://github.com/prashant252gupta/Nyxie',
     aiHint: 'discord bot',
