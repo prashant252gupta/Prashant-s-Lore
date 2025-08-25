@@ -84,7 +84,7 @@ This project is not just a technical build but also a case study in product thin
     title: 'Nyxie',
     description: 'A sophisticated AI wingman designed to revolutionize your dating app experience, providing witty, strategic, and psychologically-backed advice.',
     image: '/images/Nyxie.png',
-    tags: ['Next.js', 'React', 'Genkit', 'AI', 'Tailwind CSS'],
+    tags: ['Next.js', 'React', 'TypeScript', 'Genkit', 'Gemini Pro', 'AI', 'Tailwind CSS', 'ShadCN UI', 'UI/UX Design', 'Prompt Engineering', 'Netlify'],
     liveUrl: 'https://nyxiebot.netlify.app/',
     githubUrl: 'https://github.com/prashant252gupta/Nyxie',
     aiHint: 'discord bot',
