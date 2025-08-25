@@ -30,10 +30,16 @@ export default function About() {
           <p className="text-lg text-foreground/80 mb-6">
             I'm a builder at heart, driven by a passion for turning complex ideas into elegant, high-performance web experiences. My expertise lies at the intersection of sharp design and scalable engineering, where I thrive on building systems that not only work flawlessly but also feel incredible to use. I'm obsessed with the entire product lifecycle—from initial concept to polished, production-ready code.
           </p>
-          <p className="text-lg text-foreground/80">
+          <p className="text-lg text-foreground/80 mb-8">
             Outside of the digital world, I'm an adrenaline junkie who's always chasing the next thrill, whether it's exploring new heights or diving into uncharted territories. This love for adventure translates into my work, where I constantly push boundaries and explore new technologies to create something truly innovative.
           </p>
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="mb-8">
+            <Link href="/journey" className="inline-flex items-center text-accent hover:text-accent/90 transition-colors text-lg font-medium">
+              Read More about my Journey
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {skills.map((skill) => (
               <div key={skill.title} className="flex items-start gap-4 p-4 rounded-lg bg-card/50">
                 <skill.icon className="w-8 h-8 text-accent shrink-0 mt-1" />
@@ -43,12 +49,6 @@ export default function About() {
                 </div>
               </div>
             ))}
-          </div>
-          <div className="mt-8">
-            <Link href="/journey" className="inline-flex items-center text-accent hover:text-accent/90 transition-colors text-lg font-medium">
-              Read More about my Journey
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
           </div>
         </div>
       </div>
