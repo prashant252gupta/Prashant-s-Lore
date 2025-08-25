@@ -45,7 +45,7 @@ export default function LetsConnect() {
                     target="_blank" 
                     rel="noopener noreferrer"
                     className={cn(
-                        "group relative p-6 rounded-lg border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent/80",
+                        "group relative p-6 rounded-lg border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent/80 hover:scale-105 transform",
                         link.highlight ? "bg-accent text-accent-foreground lg:col-start-3" : "hover:bg-card/80"
                     )}
                 >
