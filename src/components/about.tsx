@@ -16,7 +16,7 @@ export default function About() {
         <div className="lg:col-span-1 flex justify-center">
           <div className="relative w-64 h-64">
             <Image
-              src="/images/iFace.png"
+              src="/images/profile.jpg"
               alt="Prashant Gupta"
               width={400}
               height={400}
