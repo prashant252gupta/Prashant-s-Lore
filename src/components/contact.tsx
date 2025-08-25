@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 const socialLinks = [
     {
@@ -60,6 +61,16 @@ export default function LetsConnect() {
                     </div>
                 </a>
             ))}
+        </div>
+        <div className="mt-20 flex justify-center">
+          <Image
+            src="/images/pikachu.gif"
+            alt="Pikachu"
+            width={200}
+            height={200}
+            unoptimized
+            data-ai-hint="pikachu running"
+          />
         </div>
       </div>
     </section>
