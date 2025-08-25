@@ -1,5 +1,4 @@
 import About from '@/components/about';
-import Blog from '@/components/blog';
 import Contact from '@/components/contact';
 import Experience from '@/components/experience';
 import Footer from '@/components/footer';
@@ -28,9 +27,6 @@ export default function Home() {
           </div>
           <div id="about">
             <About />
-          </div>
-          <div id="blog">
-            <Blog />
           </div>
           <div id="contact">
             <Contact />
